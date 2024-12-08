@@ -33,3 +33,8 @@ first, second, *others = numbers
 
 numbers = [1, 2, 3, 4, 5, 6, 7]
 first,  *others, second = numbers
+
+# Looping over Lists
+letters = ["a", "b", "c"]
+for index, letter in enumerate(letters):
+    print(index, letter)
