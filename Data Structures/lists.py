@@ -12,3 +12,11 @@ chars = list("Hello Wrld")
 
 print(chars)
 print(len(chars))
+
+# Accessing Items
+letters[0] = "A"
+print(letters[0])
+print(letters[-1])
+print(letters[0:3])
+print(letters[::2])   # Every second element
+print(letters[::-1])   # Every element in reverse order
