@@ -20,3 +20,16 @@ print(letters[-1])
 print(letters[0:3])
 print(letters[::2])   # Every second element
 print(letters[::-1])   # Every element in reverse order
+
+# List Unpacking
+numbers = [1, 2, 3]
+# first = numbers[0]
+# second = numbers[1]
+# third = numbers[2]
+first, second, third = numbers
+
+numbers = [1, 2, 3, 4, 5, 6, 7]
+first, second, *others = numbers
+
+numbers = [1, 2, 3, 4, 5, 6, 7]
+first,  *others, second = numbers
