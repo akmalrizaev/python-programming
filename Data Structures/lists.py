@@ -38,3 +38,17 @@ first,  *others, second = numbers
 letters = ["a", "b", "c"]
 for index, letter in enumerate(letters):
     print(index, letter)
+
+# Adding or Removing Items
+# Add
+letters = ["a", "b", "c"]
+letters.append("d")
+letters.insert(0, "-")
+
+# Remove
+letters.pop()
+letters.pop(0)
+letters.remove("b")
+del letters[0:3]
+letters.clear()
+print(letters)
