@@ -79,3 +79,6 @@ def sort_item(item):
 
 items.sort(key=sort_item)
 print(items)
+
+# Lambda Functions
+items.sort(key=lambda item: item[1])
