@@ -1,4 +1,4 @@
-class Animal:
+class Animal():
     def __init__(self):
         self.age = 1
 
@@ -22,3 +22,13 @@ class Fish(Animal):
 
 m = Mammal()
 m.eat()
+
+
+print(isinstance(m, Mammal))  # True
+print(isinstance(m, Animal))  # True
+print(isinstance(m, object))  # True
+
+o = object()
+
+print(issubclass(Mammal, Animal))  # True
+print(issubclass(Mammal, object))  # True
