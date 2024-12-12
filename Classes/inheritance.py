@@ -9,6 +9,9 @@ class Animal():
 # Animal: Parent, Base
 # Mammal: Child, Sub
 class Mammal(Animal):
+    def __init__(self):
+        super().__init__()
+        self.weight = 2
 
     def walk(self):
         print("walk")
